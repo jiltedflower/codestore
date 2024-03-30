@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="7c4a3d14-d593-4ea1-a933-6d17d3560a49" name="Changes" comment="Create mydependabot.yml">
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/keydbase_ws_kts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/keydbase_ws_kts.xml" afterDir="false" />
+
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,13 +41,27 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
+
+    <option name="selectedTabId" value="CurrentFile" />
+
     <option name="selectedTabId" value="ProjectErrors" />
+
   </component>
   <component name="ProjectId" id="29pSpwwCQpQaSyDf9GpivNw6QUT" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
+
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -53,13 +70,14 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "advanced.settings"
+
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "Python"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;Python&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -70,22 +88,32 @@
       </set>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="keystore" />
+  <component name="RunManager" selected="Java Scratch.Scratch">
+    <configuration name="Scratch" type="Java Scratch" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Scratch" />
+      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="codestore" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="keystore" />
+      <module name="codestore" />
       <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+
+
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <module name="keystore" />
+      <module name="codestore" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -106,7 +134,7 @@
       <method v="2" />
     </configuration>
     <configuration default="true" type="Tox" factoryName="Tox">
-      <module name="keystore" />
+      <module name="codestore" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
@@ -117,7 +145,7 @@
       <method v="2" />
     </configuration>
     <configuration default="true" type="ccruntests" factoryName="Run Study Tests">
-      <module name="keystore" />
+      <module name="codestore" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -139,7 +167,7 @@
       <method v="2" />
     </configuration>
     <configuration default="true" type="tests" factoryName="Autodetect">
-      <module name="keystore" />
+      <module name="codestore" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
@@ -153,7 +181,7 @@
       <method v="2" />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
-      <module name="keystore" />
+      <module name="codestore" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
@@ -172,8 +200,12 @@
     </configuration>
     <recent_temporary>
       <list>
+
+        <item itemvalue="Java Scratch.Scratch" />
+
         <item itemvalue="Kotlin script.keydbase.ws.kts" />
         <item itemvalue="Kotlin script.keydbase.ws.kts" />
+
       </list>
     </recent_temporary>
   </component>
@@ -242,6 +274,10 @@
     <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+
+    <SUITE FILE_PATH="coverage/keydbase_ws_kts$keydbase_ws_kts.ic" NAME="keydbase.ws.kts Coverage Results" MODIFIED="1655100246681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+
     <SUITE FILE_PATH="coverage/keydbase_ws_kts$keydbase_ws_kts.ic" NAME="keydbase.ws.kts Coverage Results" MODIFIED="1655005698740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+
   </component>
 </project>

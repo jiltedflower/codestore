@@ -1,11 +1,16 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="keydbase.ws.kts" type="KotlinStandaloneScriptRunConfigurationType" singleton="false" nameIsGenerated="true">
+
+    <module name="codestore" />
+    <shortenClasspath name="NONE" />
+
     <envs>
-      <env name="repo" value="keystore" />
+      <env name="repo" value="codestore" />
     </envs>
-    <module name="keystore" />
+    <module name="codestore" />
     <shortenClasspath name="NONE" />
     <option name="VM_PARAMETERS" value="$MAVEN_REPOSITORY$" />
+
     <option name="filePath" value="$PROJECT_DIR$/keydbase.ws.kts" />
     <method v="2">
       <option name="Make" enabled="true" />
